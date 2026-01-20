@@ -13,9 +13,9 @@ class ClickDriveNode(Node):
     def __init__(self):
         super().__init__('click_node')
 
-        self.declare_parameter('image_topic', '/image_raw')
-        self.declare_parameter('cmd_vel_topic', '/cmd_vel')
-        self.declare_parameter('linear_speed', 0.15)
+        self.declare_parameter('image_topic', '/image')
+        self.declare_parameter('cmd_vel_topic', '/turtle1/cmd_vel')
+        self.declare_parameter('linear_speed', 0.5)
 
         self.image_topic = self.get_parameter('image_topic').value
         self.cmd_vel_topic = self.get_parameter('cmd_vel_topic').value
