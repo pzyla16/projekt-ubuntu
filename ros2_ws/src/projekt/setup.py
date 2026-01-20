@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+           'click_node = projekt.click_node:main',
         ],
     },
 )
