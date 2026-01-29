@@ -11,3 +11,6 @@ Wymagana instalacja:
 - dodatkowe zależności (git python3-colcon-common-extensions python3-rosdep python3-opencv ros-humble-cv-bridge ros-humble-image-transport ros-humble-usb-cam ros-humble-image-tools)
 - repozytorium github.com/pzyla16/projekt-ubuntu
 - paczka TurtleBot3
+
+##Aktualny ROS2
+![ROS2](https://www.therobotreport.com/wp-content/uploads/2022/05/ros-humble-hawksbill-featured.jpg)
