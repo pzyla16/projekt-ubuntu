@@ -6,6 +6,9 @@ Uruchamianie:
 - uruchomić click_node
 - uruchomić symulacje TurtleBot3 (ros2 run turtlesim turtlesim_node)
 
+Alternatywny sposob uruchomienia:
+- uruchomic plik start.launch.py, ktory uruchamia wszystkie potrzbne wezly i pliki
+
 Wymagana instalacja:
 - pakiet ros2 humble
 - dodatkowe zależności (git python3-colcon-common-extensions python3-rosdep python3-opencv ros-humble-cv-bridge ros-humble-image-transport ros-humble-usb-cam ros-humble-image-tools)
